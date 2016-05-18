@@ -1,5 +1,5 @@
 # discussforum
 A simple application created using meteor
 
-![alt tag](https://66.media.tumblr.com/4632e4540e03eb6c71d5ae379bffb8c1/tumblr_o7dd8shaHU1vo81nho1_1280.png)
-![alt tag](https://65.media.tumblr.com/5be4629e4f2fec34a038da92bec47c7e/tumblr_o7ddag4CNX1vo81nho1_1280.png)
+![alt tag](https://67.media.tumblr.com/860fa982b11421cee7937ae162aca520/tumblr_o7dg73SQBw1vo81nho1_1280.png)
+![alt tag](https://67.media.tumblr.com/100ed46b983c93ba666d677b7257159a/tumblr_o7dg7swKpt1vo81nho1_540.png)
