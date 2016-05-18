@@ -8,17 +8,17 @@
         {{> loginButtons}} to view or post comments.
     
     <div class="container">
-	{{#if currentUser}}
-	{{ #each iterthru}}
-  {{> hello}} 
-   {{/each}}
-    {{/if}}
-        {{#if currentUser}}
+	       {{#if currentUser}}
         <form class="email">
             <input type="text" name="emailid" placeholder="enter your message" />
             <input type="submit" value="Submit" />
         </form>
         {{/if}}
+		{{#if currentUser}}
+	{{ #each iterthru}}
+  {{> hello}} 
+   {{/each}}
+    {{/if}}
     </div>
 </body>
 
