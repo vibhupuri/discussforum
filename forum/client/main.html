@@ -1,0 +1,31 @@
+<head>
+  <title>Discuss</title>
+</head>
+
+<body>
+  <h1>Discussion Forum</h1>
+   
+        {{> loginButtons}} to view or post comments.
+    
+    <div class="container">
+	{{#if currentUser}}
+	{{ #each iterthru}}
+  {{> hello}} 
+   {{/each}}
+    {{/if}}
+        {{#if currentUser}}
+        <form class="email">
+            <input type="text" name="emailid" placeholder="enter your message" />
+            <input type="submit" value="Submit" />
+        </form>
+        {{/if}}
+    </div>
+</body>
+
+<template name="hello">
+    <li><pre><u>Submitted by:{{a2}}</u> {{a1}}</pre></li>
+     
+</template>
+ 
+
+ 
